@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calstyle.css">
+    <title>Calculator</title>
+</head>
+<body>
+  <div class="name">
+    <!-- <h1>Calculator</h1> -->
+  </div>
+
+  <div class="calculator">
+    <div class="display">
+      <input type="text" id="output" disabled>
+    </div>
+    <div class="buttons">
+      <button onclick="clearOutput()">C</button>
+      <button onclick="clearOutput()">DEL</button>
+      <button onclick="appendToOutput('%')">%</button>
+      <button onclick="appendToOutput('/')">&#247;</button>
+      <!-- <button onclick="appendToOutput('*')">&times;</button> -->
+      <button onclick="appendToOutput('7')">7</button>
+      <button onclick="appendToOutput('8')">8</button>
+      <button onclick="appendToOutput('9')">9</button>
+      <button onclick="appendToOutput('*')">&times;</button>
+      <!-- <button onclick="appendToOutput('-')">-</button> -->
+      <button onclick="appendToOutput('4')">4</button>
+      <button onclick="appendToOutput('5')">5</button>
+      <button onclick="appendToOutput('6')">6</button>
+        <button onclick="appendToOutput('-')">-</button>
+      <!-- <button onclick="appendToOutput('+')">+</button> -->
+      <button onclick="appendToOutput('1')">1</button>
+      <button onclick="appendToOutput('2')">2</button>
+      <button onclick="appendToOutput('3')">3</button>
+      <button onclick="appendToOutput('+')">+</button>
+      <!-- <button onclick="calculateResult()">=</button> -->
+      <button onclick="appendToOutput('00')">00</button>
+      <button onclick="appendToOutput('0')">0</button>
+      <button onclick="appendToOutput('.')">.</button>
+      <button onclick="calculateResult()">=</button>
+    </div>
+  </div>
+
+
+<script src="caljs.js"></script>  
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- <div class="calculator">
+    <input type="text" id="result" readonly>
+    <br>
+    <input type="button" value="1" onclick="appendNumber(1)">
+    <input type="button" value="2" onclick="appendNumber(2)">
+    <input type="button" value="3" onclick="appendNumber(3)">
+    <input type="button" value="+" onclick="appendOperator('+')">
+    <br>
+    <input type="button" value="4" onclick="appendNumber(4)">
+    <input type="button" value="5" onclick="appendNumber(5)">
+    <input type="button" value="6" onclick="appendNumber(6)">
+    <input type="button" value="-" onclick="appendOperator('-')">
+    <br>
+    <input type="button" value="7" onclick="appendNumber(7)">
+    <input type="button" value="8" onclick="appendNumber(8)">
+    <input type="button" value="9" onclick="appendNumber(9)">
+    <input type="button" value="*" onclick="appendOperator('*')">
+    <br>
+    <input type="button" value="0" onclick="appendNumber(0)">
+    <input type="button" value="C" onclick="clearResult()">
+    <input type="button" value="=" onclick="calculate()">
+    <input type="button" value="/" onclick="appendOperator('/')">
+  </div> -->
+
+  <!-- <script>
+    function appendNumber(number) {
+      document.getElementById('result').value += number;
+    }
+
+    function appendOperator(operator) {
+      document.getElementById('result').value += operator;
+    }
+
+    function clearResult() {
+      document.getElementById('result').value = '';
+    }
+
+    function calculate() {
+      var result = eval(document.getElementById('result').value);
+      document.getElementById('result').value = result;
+    }
+  </script> -->
+
+
+
+
+
+
+
+
+
+ 
+    <!-- <div id="container">
+        <div id="calculator">
+            <div id="result">
+                <div id="history">
+                    <p id="history-value"></p>
+                </div>
+                <div id="output">
+                    <p id="output-value"></p>
+                </div>
+            </div>
+            <div id="keyboard">
+                <button class="operator"id="clear">C</button>
+                <button class="operator"id="backspace">CE</button>
+                <button class="operator"id="%">%</button>
+                <button class="operator"id="/">&#247</button>
+                <button class="operator"id="7">7</button>
+                <button class="operator"id="8">8</button>
+                <button class="operator"id="9">9</button>
+                <button class="operator"id="*">&times</button>
+                <button class="operator"id="4">4</button>
+                <button class="operator"id="5">5</button>
+                <button class="operator"id="6">6</button>
+                <button class="operator"id="-">-</button>
+                <button class="operator"id="1">1</button>
+                <button class="operator"id="2">2</button>
+                <button class="operator"id="3">3</button>
+                <button class="operator"id="+">+</button>
+                <button class="operator"id="00">00</button>
+                <button class="operator"id="0">0</button>
+                <button class="operator"id="empty"></button>
+                <button class="operator"id="=">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="caljs.js"></script>  -->
+
+    
+      
+ 

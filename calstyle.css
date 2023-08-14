@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family:'poppins','sans serif';
+  /* text-decoration: none;
+  list-style: none; */
+
+}
+.name{
+  left: 625px;
+  position: relative;
+}
+
+.calculator {
+    height:450px;
+    width: 300px;
+    border: 3px solid #cccccc;
+    padding: 10px ;
+    left:550px;
+    position: relative;
+    top: 60px;
+  }
+
+  .display input[type="text"]{
+    width: 280px;
+    height: 80px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+  }
+
+  .display {
+    text-align: right;
+    margin-bottom: 10px;
+    font-size: 30px;
+  }
+
+  .buttons {
+    font-size: 20px;
+    border-radius: 15px;
+   padding: 3px 25px;
+    /* display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px; */
+  }
+
+  .buttons button {
+    width: 52px;
+  height: 62px;
+  margin: 2px;
+  float: left;
+  border-radius: 50%;
+  border-width: 0;
+  font-weight: bold;
+  font-size: 18px;
+  cursor:pointer
+    /* padding: 10px;
+    font-size: 16px; */
+  }
+
+  
+  button:nth-child(4){
+    background-color:slategrey;
+    }
+    
+    button:nth-child(8){
+    background-color:crimson;
+    }
+    
+    button:nth-child(16){
+    background-color:darkslategray;
+    }
+    
+    button:nth-child(20){
+    background-color:green;
+    }
+    button:nth-child(12){
+    background-color:orange;
+    }
+    
+    button:nth-child(1){
+    background-color:blue;
+    }
+    
+    button:nth-child(2){
+    background-color:violet;
+    }
+    
+    button:nth-child(3){
+    background-color:peru;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .calculator {
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    left: 550px;
+    position: relative;
+  }
+  .calculator input[type="button"] {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    height: 40px;
+    width: 30px;
+    margin: 12px;
+    font-weight: bold;
+    border-radius: 50%;
+    border-width: 0;
+  }
+
+  .calculator input[type="text"]{
+    width:220px;
+    height: 80px;
+    text-align: right;
+    font-size: larger;
+  }
+
+.Calculator appendNumber appendOperator clearResult{
+    width: 52px;
+    height: 52px;
+    margin: 16px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 16px
+} */
+  
+
+
+
+
+
+
+
+
+
+/* ..................second........................ */
+/* #calculator{
+    width: 340px;
+    height: 540px;
+    background-color:rgb(10, 6, 36) ;
+    margin: 0 auto;
+    top:30px;
+    position: relative;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#result{
+    height: 12opx;
+}
+#keyboard{
+    height: 400px;
+}
+
+#history{
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    color:white;
+}
+
+#output{
+    text-align: right;
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 30px;
+    color: white;
+}
+
+.operator, .number, .empty{
+    width: 52px;
+    height: 52px;
+    margin: 16px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.number, .empty{
+    background-color:aliceblue;
+}
+.number, .operator{
+    cursor: pointer;
+}
+.operator,:active, .number:active{
+    font-size: 13px;
+}
+.operator:focus, .number:focus, .empty:focus{
+    outline: 0;
+}
+ button:nth-child(4){
+    background-color: blueviolet;
+ }
+
+ button:nth-child(8){
+    background-color:crimson;
+ }
+
+ button:nth-child(16){
+    background-color:gold;
+ }
+
+ button:nth-child(20){
+    background-color: #ea352467;
+ }
+ button:nth-child(12){
+    background-color:dimgrey;
+ }
+
+ button:nth-child(1){
+    background-color:darkgreen;
+ }
+
+ button:nth-child(2){
+    background-color:violet;
+ }
+
+ button:nth-child(3){
+    background-color:peru;
+ } */
